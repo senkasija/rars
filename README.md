@@ -1,2 +1,2 @@
 # rars
-Linkovi uneseni u indeksne fajlove su projektovani prema predstojećem veb-domenu RARS-a: http://www.rars-msp.org
+Linkovi uneseni u indeksne fajlove treba zameniti u skladu sa veb-domenom RARS-a: http://www.rars-msp.org
