@@ -31,7 +31,12 @@
                         <li><a href="http://www.rars-msp.org/en/about-the-agency/">ABOUT US</a></li>
                         <li><a href="http://www.rars-msp.org/en/success-stories/">SUCCESS STORIES</a></li>
                         <li><a href="http://www.rars-msp.org/en/publications/">PUBLICATIONS</a></li>
-                        <li><a href="http://www.rars-msp.org/en/projects/">PROJECTS</a></li>
+                        <li class="parent-menu"><a href="http://localhost/rars318/en/projects/">PROJECTS<ion-icon name="chevron-down-outline" class="ikona"></ion-icon></a>
+                            <div class="dropdown-content">
+                                <a href="http://localhost/rars318/en/projects/projects-in-progress/">Projects in progress</a>
+                                <a href="http://localhost/rars318/en/projects/completed-projects/">Completed projects</a>
+                            </div>
+                        </li>
                         <li><a href="http://www.rars-msp.org/en/category/info-en/">NEWS</a></li>
                     </ul>
                 </div>
@@ -40,17 +45,13 @@
         <div class="breadcrumb">
             <div class="row">
                 <div class="breadcrumb-links">
-                    <p><a href="http://www.rars-msp.org/">Home Page</a> - <strong>База локација за улагање</strong></p>
+                    <p><a href="http://www.rars-msp.org/">Home Page</a> - <strong>Suppliers Database</strong></p>
                 </div>
             </div>
         </div> 
-        
-        
-
-
     </header>
 
-    <main>
+    <main class="row row-padd">
 
         What is Lorem Ipsum?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
@@ -60,12 +61,12 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         <div class="wrapper__footer">
             <div class="row clearfix">
                 <div class="footer__address">
-                    <a href="http://www.rars-msp.org/"><img class="footer_logo" src="img/logo_footer_cir-1.png"> </a>
+                    <a href="http://www.rars-msp.org/"><img class="footer_logo" src="img/logo_footer_eng-1.png"> </a>
                     <p>
-                        Save Mrkalja 16, 4. sprat<br>
+                        Save Mrkalja 16, 4.<br>
                         78 000 Banja Luka<br>
-                        Telefon: +387 51 222 120<br>
-                        Faks: +387 51 222 121
+                        Tel.: +387 51 222 120<br>
+                        Fax: +387 51 222 121
                     </p>
 
                 </div>
@@ -96,6 +97,6 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
         <div class="footer__copyright">&copy;RARS <script>document.write(new Date().getFullYear())</script>
         </div>
     </footer>
-    
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
 </html>
