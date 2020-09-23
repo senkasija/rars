@@ -280,13 +280,24 @@ padding: 15px 15px
 .footer__social {
 	float: left;
 	width: 33.33%;
+	text-align: center;
+	font-size: 17px;
 }
 .footer__social p {
 color: white;
+margin-top: 30px;
+line-height: 2rem;
 }
-.footer__social a {
+
+.footer__social p a {
+	margin-top: .2rem;
 	color: white;
 	text-decoration: none;
+	border-bottom: solid 2px white;
+	padding-bottom: 1px;
+	}
+	.footer__social a:hover{
+		border-bottom: solid 2px #777777;
 	}
 
 .fa {
